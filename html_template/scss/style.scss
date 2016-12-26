@@ -1,0 +1,72 @@
+/*
+	Template Name: Home Property
+	Author : MarkUps.io
+	Author URI: http://www.markups.io/
+	Version: 1.0
+
+*/
+
+
+/* BASE - Base tyles, Variables, Mixins, etc. */
+
+
+@import 'helpers/_variables.scss';
+@import 'helpers/_mixins.scss';
+@import 'base/_reset.scss';
+@import 'base/_base.scss';
+
+/* MODULES - Individual site components */
+
+@import 'base/_typography.scss';
+@import 'components/_buttons.scss';
+
+
+
+/* LAYOUTS - Page layout styles */
+
+
+
+/*==================
+ HEADER SECTION
+====================*/
+
+@import 'layouts/_header.scss';
+
+/*==================
+ NAVBAR SECTION
+====================*/
+
+@import 'layouts/_nav.scss';
+
+/* slider */
+
+@import 'layouts/_slider.scss';
+
+/* ALL SECTION ex dropdown,carousel,.. */
+
+@import 'components/_sections.scss';
+
+/*==================
+ Page 
+====================*/
+/* home */
+
+@import 'page/_home.scss';
+
+/*==================
+ FOOTER SECTION
+====================*/
+
+
+@import 'layouts/_footer.scss';
+
+/*==================
+ THEME PAGE
+====================*/
+//@import 'page/_.scss';
+
+/*==================
+ RESPONSIVE DESIGN
+====================*/
+
+@import 'components/_responsive.scss';

@@ -1,0 +1,18 @@
+header {
+	.container{
+		background: url("../img/banner.jpg") no-repeat scroll right center;
+		.logo {
+			padding-left: 20px;
+			padding-top: 15px;
+			img {
+				width: 100%;
+			} 
+		}
+		.banner {
+			img {
+				width: 100%;
+				vertical-align: top;
+			}
+		}
+	}
+}
