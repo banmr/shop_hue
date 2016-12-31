@@ -1,0 +1,37 @@
+
+// FOOTER
+
+
+footer {
+	background-color: #232f3e;
+	color: #949494;
+	padding: 30px 0;
+	.container {
+		max-width: 1200px;
+		h3 {
+			color: #fff;
+			text-transform: uppercase;
+			font-style: 16px;
+			margin-bottom: 10px;
+		}
+		a {
+			color: #ddd;
+			font-size: 14px; 
+		}
+	}
+	.nav-footer-line {
+	    border-top: 1px solid #3a4553;
+	    margin-top: 40px;
+	    margin-bottom: 20px;
+	}
+	.copy-right{
+		color: #fff;
+		font-size: 13px;
+	}
+	.social{
+		text-align: right;
+		h3{
+			font-size: 13px;
+		}
+	}
+}

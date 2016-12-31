@@ -1,0 +1,49 @@
+
+// RESPONSIVE 
+
+
+@media(max-width:1199px ){
+	
+}	
+
+
+@media(max-width:991px ){
+
+}
+
+
+@media(max-width:767px ){
+	.left-footer,
+	.mid-footer,
+	.right-footer,
+	.copy-right {
+		margin-bottom: 20px;
+	}
+	.social{
+		h3{
+			text-align: center;
+		}		
+	}
+}
+
+@media(max-width:640px){
+}
+
+// mobile ngaang
+
+@media(max-width:480px ){	
+
+}
+
+// mobile doc
+
+@media(max-width:360px ){	
+	.list-product{
+		width: 100% !important;
+	}
+}
+
+
+@media(max-width:320px ){
+
+}

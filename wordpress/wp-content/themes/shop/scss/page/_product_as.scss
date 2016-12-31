@@ -1,0 +1,19 @@
+/**
+ * Product page (trong khoan nho hon 769px doan css o trong ko thuc hien)
+ */
+ @media screen and (min-width: 769px) {
+	.woocommerce, .woocommerce-page {
+		div.product,
+		#content div.product {
+			div.images {
+				float: left;
+				width: 38%;
+			}
+			div.summary {
+				float: right;
+				width: 58%;
+			}
+
+		}
+	}
+}
